@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade de Css</title>
+
+    <style>
+        body {
+            background-color: rgb(253, 225, 190);
+        }
+
+        p.ex1 {
+    font-size: 16px;
+    border: 4px double black;
+}
+
+p.ex2 {
+    padding: 2em;
+}
+
+p.ex3 {
+    border: 4px solid red;
+    padding: 2em;
+}
+
+p.ex4 {
+    box-sizing: border-box;
+    border: 4px solid red;
+    padding: 0;
+    margin: 0 em;
+}
+
+p.ex5 {
+    border: 4px dashed #333333;
+    padding: 1em;
+    margin: 6em;
+    text-align: center;
+}
+
+p.ex6 {
+   border: 2px solid black; 
+   padding: 50px 1em;
+   margin: 0 auto;
+   box-sizing: border-box;
+   text-align: center;
+}
+
+.caixas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.caixas p {
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    flex: 0 0 200px;
+    margin: 0;
+    padding: 10px;
+}
+
+    </style>
+</head>
+<body>
+
+<div class="caixas">
+ <p class="ex1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis porro dolorum nam, iusto eveniet quae architecto cumque ipsum, accusamus error exercitationem aperiam! Modi excepturi ex debitis iusto omnis magnam molestias?</p>
+    
+<p class="ex2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus id quae eligendi unde libero neque placeat reprehenderit error sunt in, necessitatibus distinctio suscipit! Tempore perferendis fugiat sed praesentium. Illo, beatae!</p>
+
+<p class="ex3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facilis quaerat ab, dolorem fuga animi quas sapiente ad non labore quae tempora. Eaque dolores harum omnis ipsam rerum vitae ipsa!</p>
+
+<p class="ex4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda dolorum aperiam, consectetur earum doloremque cupiditate voluptatibus rerum quaerat illum eius iure aliquam unde, quo omnis ut deserunt delectus veritatis alias!</p>
+
+<p class="ex5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed hic facilis, labore numquam ullam, tenetur magnam nihil necessitatibus cumque ex ab deleniti! Tenetur ullam ut dolore, aut laboriosam suscipit inventore.</p>
+
+<p class="ex6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur laudantium molestiae asperiores eos nam voluptates adipisci voluptas voluptatem vero at. Quia vero laboriosam voluptatem voluptatibus nisi architecto obcaecati neque animi?</p>
+</div>
+</body>
+</html>
